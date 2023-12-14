@@ -2,7 +2,7 @@ function carregar() {
     var msg = window.document.getElementById('msg')
     var img = window.document.getElementById('imagem')
     var data = new Date()
-   var hora = data.getHours()
+    var hora = data.getHours()
    
     msg.innerHTML = `Agora são ${hora} horas.`
 
@@ -16,4 +16,21 @@ function carregar() {
         img.src = 'imagens/night.png'
         document.body.style.background = '#9778b1'
     }
+}
+
+var a = window.document.getElementById('area')
+a.addEventListener('click', click)
+a.addEventListener('mouseenter', entrar)
+a.addEventListener('mouseout', sair)
+
+function click(){
+    a.style.background = 'purple'
+}
+
+function entrar(){
+    a.style.background = 'darkgray'
+}
+
+function sair(){
+    a.style.background = 'white'
 }

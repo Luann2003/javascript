@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ex001</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Verificador de idade</h1>
+    </header>
+    <section id="area">
+        <div id="msg">
+            <p>Ano de Nascimento:</p>
+            <input id="input" type="text">
+        </div>
+        <div id="radio">
+            <label for="Male">Sexo:</label>
+            <input type="radio" name="sexo" id="male">
+            <label for="Masculino">Masculino</label>
+            <input type="radio" name="sexo" id="female">
+            <label for="Female">Feminino</label>
+        </div>
+        <div id="btn">
+            <input onclick="buscar()"type="button" value="Verificar">
+        </div>
+        <div>
+            <p id="idade-msg">Mensagem aparece aqui</p>
+        </div>
+        <div id="foto">
+           <img class="pixels" id="imagem" src="imagens/manha.png" alt="imagem">
+        </div>  
+    </section>
+    <footer>
+        <p><strong>Luann2003</strong></p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
