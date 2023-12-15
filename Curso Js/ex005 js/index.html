@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Análisador de Números</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <header>
+        <h1>Análisador de Números</h1>
+    </header>
+    <section id="area">
+        <div> 
+            <div id="head">
+                <label for="number">Número (entre 1 a 100)</label>
+                <input type="number" name="number" id="numberInput">
+            </div>
+            <div id="add">
+                <button id="btn" onclick="adicionar()" >adicionar</button>
+            </div>
+            <div id="tabu">
+                <div id="table">
+                    <select name="numbers" id="numbers" size="10">
+                    </select>
+                </div>
+                <button onclick="finish()" >Finalizar</button> 
+                <p id="resultado"></p>
+            </div>
+        </div>  
+        </section>
+    <footer>
+        <p><strong>Luann2003</strong></p>
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
