@@ -40,8 +40,6 @@ function finish(){
 
     var media = mediaTotal();
     result.innerText += `\nA média dos números digitados é ${media}`
-    
-
 }
 
 function findMaxNumber(){
