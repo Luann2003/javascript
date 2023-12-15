@@ -1,0 +1,51 @@
+body{
+    background-color: whitesmoke;
+    font: normal 15pt Arial;
+}
+
+header{
+    text-align: center;
+}
+
+section{
+    
+    background-color: white;
+    border-radius: 10px;
+    padding: 15px;
+    width: 400px;
+    margin: auto;
+    box-shadow: 3px 3px 10px rgba(0, 0, 0, 0.233);  
+    font-size: 18px;
+}
+
+div{
+    text-align: center;
+    padding: 5px;
+}
+
+
+#input {
+    display: flex;
+    flex-direction: column; 
+    align-items: flex-start; 
+}
+
+
+.quadrado label {
+    width: 100px;
+}
+
+.caixa{
+    margin-left: 15px;
+}
+
+#res{
+    width: 100%;
+    text-align: left;
+}
+
+
+footer{
+    text-align: center;
+    font-style: italic;
+}
