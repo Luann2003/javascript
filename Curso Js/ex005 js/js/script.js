@@ -15,7 +15,6 @@ function adicionar(){
 
     numbers.push(number);
     count ++;
-   
 }
 
 function finish(){
